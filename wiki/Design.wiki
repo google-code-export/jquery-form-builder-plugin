@@ -1,5 +1,8 @@
 #summary Described visual, structural and technical design of the plugin.
 #labels Phase-Design,Featured
+
+<wiki:toc max_depth="1" />
+
 = Overview =
 This document described visual, structural and technical design of the plugin.
 
@@ -107,7 +110,7 @@ For example, code below is hidden field set of the Plain Text plugin:
   <input type="hidden" value="null" name="fields[0].id" id="fields[0].id"> 
   <input type="hidden" value="plainText1" name="fields[0].name" id="fields[0].name"> 
   <input type="hidden" value="PlainText" name="fields[0].type" id="fields[0].type"> 
-  <input type="hidden" name="fields[0].settings" id="fields[0].settings" value="{&quot;en&quot;:{&quot;text...}}">
+  <input type="hidden" name="fields[0].settings" id="fields[0].settings" value="{ en: {text...}}">
   <input type="hidden" value="0" name="fields[0].sequence" id="fields[0].sequence"> 
   <input type="hidden" name="fields[0].status" id="fields[0].status">
 </div>
@@ -119,6 +122,6 @@ Each type of field will have the following 6 hidden fields prefix by `fields` an
 ||id||Default value is "null". If it is not null means the field is render from server-side.||
 ||name||This field is generated and unique, maybe meaningful and readable as it can be generated from English.||
 ||type||type of the field. This field is important to server-side field implementation.||
-||settings||Store serialized JSON value of settings property of plugin's options mentioned in previous section||
-||sequence||Order of the field. Before fields render by server-side, it need to order it with ascending order first||
-||status||D or U. D represents deleted and U represent updated. It will change to U when any hidden field above updated except id. It is use by server-side to find out which field (those rendered by server-side) was updated or deleted.|| 
+||settings||Store serialized JSON value of settings property of plugin's options mentioned in previous section.||
+||sequence||Order of the field. Before fields render by server-side, it need to order it with ascending order first.||
+||status||D or U. D represents deleted and U represent updated. It will change to U when any hidden field above updated except id. It is use by server-side to find out which fields (those rendered by server-side) were updated or deleted.|| 
