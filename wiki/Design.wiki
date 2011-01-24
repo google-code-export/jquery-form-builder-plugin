@@ -30,7 +30,9 @@ http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/design/builder-
 
 *3. Form Settings:* This tab display settings of the form such as form heading, fonts, colors, alignment, etc. 
 
-*Both Field Settings and Form Settings divided to 2 sections such as Language Section for language-specific settings (The plugin support multi-languages, currently support English and Chinese) and General Section for general settings of the field which not relevant to the language.*
+*Note :* Both Field Settings and Form Settings tab consists of 2 sections:
+  * Language Section for language-specific settings (The plugin support multi-languages, currently support English and Chinese) and 
+  * General Section for general settings of the field which not relevant to the language.
 
 ==Builder Panel==
 
@@ -99,24 +101,24 @@ Structure of settings property is arbitrary and it is plugin specific, but it ne
 ==The Field plugin's properties== 
 Each field render in Builder Panel has set of hidden fields (`input type="hidden"`) to store the field's properties.
 
-For example, code below is hidden field set of Plain Text plugin:
+For example, code below is hidden field set of the Plain Text plugin:
 {{{
 <div class="fieldProperties">
   <input type="hidden" value="null" name="fields[0].id" id="fields[0].id"> 
   <input type="hidden" value="plainText1" name="fields[0].name" id="fields[0].name"> 
   <input type="hidden" value="PlainText" name="fields[0].type" id="fields[0].type"> 
-  <input type="hidden" name="fields[0].settings" id="fields[0].settings" value="{&quot;en&quot;:{&quot;text&quot;:&quot;Plain Text Value 1&quot;,&quot;classes&quot;:[&quot;leftAlign&quot;,&quot;topAlign&quot;]},&quot;zh&quot;:{&quot;text&quot;:&quot;無格式文字 1&quot;,&quot;classes&quot;:[&quot;rightAlign&quot;,&quot;middleAlign&quot;]},&quot;styles&quot;:{&quot;fontFamily&quot;:&quot;default&quot;,&quot;fontSize&quot;:&quot;default&quot;,&quot;fontStyles&quot;:[0,0,0],&quot;color&quot;:&quot;default&quot;,&quot;backgroundColor&quot;:&quot;default&quot;}}">
+  <input type="hidden" name="fields[0].settings" id="fields[0].settings" value="{&quot;en&quot;:{&quot;text...}}">
   <input type="hidden" value="0" name="fields[0].sequence" id="fields[0].sequence"> 
   <input type="hidden" name="fields[0].status" id="fields[0].status">
 </div>
 }}}
 
 The set of hidden fields is same for any type of field. 
-Each type of field will have the following 6 hidden fields prefix by `fields` and follow by [index]:
+Each type of field will have the following 6 hidden fields prefix by `fields` and follow by `[index]`:
 ||<strong>Hidden Field</strong>||<strong>Description</strong>||
 ||id||Default value is "null". If it is not null means the field is render from server-side.||
 ||name||This field is generated and unique, maybe meaningful and readable as it can be generated from English.||
 ||type||type of the field. This field is important to server-side field implementation.||
 ||settings||Store serialized JSON value of settings property of plugin's options mentioned in previous section||
 ||sequence||Order of the field. Before fields render by server-side, it need to order it with ascending order first||
-||status||D or U. D represents deleted and U represent updated. It will change to U when any hidden field above updated except id. It is use by server-side to know which field (those rendered by server-side) was updated or deleted.|| 
+||status||D or U. D represents deleted and U represent updated. It will change to U when any hidden field above updated except id. It is use by server-side to find out which field (those rendered by server-side) was updated or deleted.|| 
