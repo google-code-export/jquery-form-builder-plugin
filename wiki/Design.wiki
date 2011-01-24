@@ -7,7 +7,7 @@ This document described visual, structural and technical design of the plugin.
 ==Main Screen==
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/design/main.png
 
-The Form Builder divided to 3 panels, the panel on the left of the screen is Builder Palette and on the right is Builder Panel (form preview).
+The Form Builder divided to 2 panels, the panel on the left of the screen is Builder Palette and on the right is Builder Panel (form preview).
 
 ==Builder Palette==
 The Builder Palette has the follwing tabs:
