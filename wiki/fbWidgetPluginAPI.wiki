@@ -1,4 +1,4 @@
-#summary The fb.fbWidget Plugin API for re-usable field setting components to be used by plugin that extends from it.
+#summary The fb.fbWidget Plugin API must be implemented by plugin extends from it and for re-usable field setting components.
 #labels Featured,Phase-Design
 
 = Overview =
@@ -48,7 +48,7 @@ Also, all API function return JQuery object.
 </tr>
 <tr valign="top">
 <td>1.</td>
-<td align="center">*Label*<br />
+<td>*Label*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/label.png
 </td>
 <td>
@@ -67,8 +67,9 @@ fb.target._label({
   * The `description` property will display as in-line help. 
 </td>
 </tr>
+<tr valign="top">
 <td>2.</td>
-<td align="center">*In-line Help*<br />
+<td>*In-line Help*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/help.png
 </td>
 <td>
@@ -86,8 +87,9 @@ fb.target._help({
   * The tooltip was implemented by [http://craigsworks.com/projects/qtip2/ qTip2] plugin. 
 </td>
 </tr>
+<tr valign="top">
 <td>3.</td>
-<td align="center">*Horizontal Alignment*<br />
+<td>*Horizontal Alignment*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/horizontal-alignment.png
 </td>
 <td>
@@ -107,7 +109,7 @@ fb.target._horizontalAlignment({
 </tr>
 <tr valign="top">
 <td>4.</td>
-<td align="center">*Vertical Alignment*<br />
+<td>*Vertical Alignment*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/vertical-alignment.png
 </td>
 <td>
@@ -127,7 +129,7 @@ fb.target._verticalAlignment({
 </tr>
 <tr valign="top">
 <td>5.</td>
-<td align="center">*Font Picker*<br />
+<td>*Font Picker*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-picker.png
 </td>
 <td>
@@ -149,7 +151,7 @@ fb.target._fontPicker({
 </tr>
 <tr valign="top">
 <td>6.</td>
-<td align="center">*Font Size*<br />
+<td>*Font Size*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-size.png
 </td>
 <td>
@@ -169,7 +171,7 @@ fb.target._fontSize({
 </tr>
 <tr valign="top">
 <td>7.</td>
-<td align="center">*Font Styles*<br />
+<td>*Font Styles*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-styles.png
 </td>
 <td>
@@ -186,10 +188,9 @@ fb.target._fontStyles({
 }}}
 </td>
 </tr>
-</tr>
 <tr valign="top">
 <td>8.</td>
-<td align="center">*Font Panel*<br />
+<td>*Font Panel*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-panel.png
 </td>
 <td>
@@ -210,7 +211,7 @@ fb.target._fontPanel({
 </tr>
 <tr valign="top">
 <td>9.</td>
-<td align="center">*Color Picker*<br />
+<td>*Color Picker*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker.png
 </td>
 <td colspan="2">
@@ -248,7 +249,7 @@ http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picke
 </tr>
 <tr valign="top">
 <td>10.</td>
-<td align="center">*Color Panel*<br />
+<td>*Color Panel*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-panel.png
 </td>
 <td>
