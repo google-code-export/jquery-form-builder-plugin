@@ -2,7 +2,7 @@
 #labels Featured,Phase-Design
 
 = Overview =
-The fb.fbWidget Plugin API will be described in table that has 4 columns such as No., Field Setting, API, Sample Code. Most function of this plugin accept one parameter: the options object in the following structure:
+The fb.fbWidget Plugin API will be described in table that has 4 columns such as No., Field Setting, API function and Sample Code. Most function of this plugin accept one parameter: the options object in the following structure:
 {{{
 var options = {
   label: 'Label of Field Setting',
@@ -12,6 +12,28 @@ var options = {
 };
 }}} 
 
+Also, all API function return JQuery object.
 
 = The fb.fbWidget Plugin API =
-||<strong>No.</strong>||<strong>Field Setting</strong>||API||Sample Code||
+<table>
+<tr>
+<th>No.</th><th>Field Setting</th><th>API Function</th><th>Sample Code</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>Horizontal Alignment<br />
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/horizontal-alignment.png
+</td>
+<td>
+{{{
+_horizontalAlignment(options)
+}}}
+</td>
+<td>
+{{{
+fb.target._horizontalAlignment({ name: 'field.horizontalAlignment', value: fb.settings.classes[0] })
+}}}
+The default label is "Horizontal Align".
+</td>
+</tr>
+</table>
