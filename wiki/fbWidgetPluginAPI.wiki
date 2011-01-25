@@ -1,0 +1,17 @@
+#summary The fb.fbWidget Plugin API for re-usable field setting components to be used by plugin that extends from it.
+#labels Featured,Phase-Design
+
+= Overview =
+The fb.fbWidget Plugin API will be described in table that has 4 columns such as No., Field Setting, API, Sample Code. Most function of this plugin accept one parameter: the options object in the following structure:
+{{{
+var options = {
+  label: 'Label of Field Setting',
+  name : 'field.name',
+  value: 'Default Value',
+  description: 'Field Setting Description' // display as context sensitive help 
+};
+}}} 
+
+
+= The fb.fbWidget Plugin API =
+||<strong>No.</strong>||<strong>Field Setting</strong>||API||Sample Code||
