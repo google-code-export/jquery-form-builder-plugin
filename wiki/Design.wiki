@@ -97,7 +97,8 @@ options : {
 
 First level properties such as name, belongsTo, _type, _html,etc of the options property are mandatory. 
 Structure of settings property is arbitrary and it is plugin specific, but it need to comply to the following rules:
-  * First level define language-specific property by language code such as `en` for English and `zh` for Chinese and follow by language independent property.
+  * First level define language-specific property by language code such as `en` for English and `zh` for Chinese and follow by language independent properties.
+  * Internal structure of language property such as `en` and `zh` must be same.
   * Specify CSS settings into `styles` property.
   * Specify CSS stylesheet class into `classes` property (separated by comma if more than one class supported).
 
