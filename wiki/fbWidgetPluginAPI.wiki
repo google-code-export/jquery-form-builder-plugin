@@ -214,12 +214,12 @@ fb.target._fontPanel({
 <td>*Color Picker*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker.png
 </td>
-<td colspan="2">
+<td>
 {{{
 _colorPicker(options)
 }}}
-
-*Sample Codes:*
+</td>
+<td>
 {{{
 fb.target._colorPicker({ 
   label: 'Text', 
