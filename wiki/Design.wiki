@@ -18,16 +18,16 @@ The Builder Palette has the follwing tabs:
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/design/builder-palette-small.png
 
 *1. Add Field:* This tab contains fields available (Standard Fields and Fancy Fields) for form creation. New field can be added to Builder Panel by click the field's button or drag it to the Builder Panel. The following table display Standard Fields and Fancy Fields to be supported by the Form Builder.
+
 ||<strong>Standard Fields</strong>||<strong>Fancy Fields</strong>||
-||Single Line Text (Text Box) *(0.1)*||Name||
-||Number (Digit & Decimal) *(0.1)*||Date (Date Picker)||  
-||E-mail Address *(0.1)*||Time||
-||Web Address *(0.1)*||Phone (International & US) *(0.1)*||
+||Single Line Text (Text Box)||Name||
+||Number (Digit & Decimal)||Date (Date Picker)||  
+||E-mail Address||Time||
+||Web Address||Phone (International & US)||
 ||Multi Line Text (Text Area)||Mailing Address||
 ||Multiple Choice (Radio)||Currency||
-||Checkboxes||Plain Text *(0.1)*||
+||Checkboxes||Plain Text||
 ||File Upload||Rich Text (Html Text)||
-*All fields marked with (0.1) above were targeted for 0.1 release.*
 
 *2. Field Settings:* This tab display settings of the field selected (To see the field settings of specific field, user need to select the field displayed in the Builder Panel). The field settings tab of image above is field settings of Plain Text. 
 
@@ -124,5 +124,5 @@ Each type of field will have the following 6 hidden fields prefix by `fields` an
 ||name||This field is generated and unique, maybe meaningful and readable as it can be generated from English.||
 ||type||type of the field. This field is important to server-side field implementation.||
 ||settings||Store serialized JSON value of settings property of plugin's options mentioned in previous section.||
-||sequence||Order of the field. Before fields render by server-side, it need to order it with ascending order first.||
+||sequence||Order of the field. Before fields render by server-side, it need to order in ascending order first.||
 ||status||D or U. D represents deleted and U represent updated. It will change to U when any hidden field above updated except id. It is use by server-side to find out which fields (those rendered by server-side) were updated or deleted.|| 
