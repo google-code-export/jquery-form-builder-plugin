@@ -15,13 +15,13 @@ var options = {
 Also, all API function return JQuery object.
 
 = The fb.fbWidget Plugin API =
-<table>
+<table border="1">
 <tr>
 <th>No.</th><th>Field Setting</th><th>API Function</th><th>Sample Code</th>
 </tr>
-<tr>
+<tr valign="top">
 <td>1.</td>
-<td>Horizontal Alignment<br />
+<td align="center">*Horizontal Alignment*<br />
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/horizontal-alignment.png
 </td>
 <td>
@@ -31,9 +31,12 @@ _horizontalAlignment(options)
 </td>
 <td>
 {{{
-fb.target._horizontalAlignment({ name: 'field.horizontalAlignment', value: fb.settings.classes[0] })
+fb.target._horizontalAlignment({ 
+  name: 'field.horizontalAlignment', 
+  value: fb.settings.classes[0] 
+});
 }}}
-The default label is "Horizontal Align".
+  * The default label is "Horizontal Align".
 </td>
 </tr>
 </table>
