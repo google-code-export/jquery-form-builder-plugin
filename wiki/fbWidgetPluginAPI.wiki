@@ -267,4 +267,24 @@ fb.target._colorPanel({
 }}}
 </td>
 </tr>
+<tr valign="top">
+<td>11.</td>
+<td>*Layout*<br />
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/layout.png
+</td>
+<td>
+{{{
+_oneColumn($e);
+_twoColumns($e1, $e2);
+_twoRowsOneRow(row1col1, row2col1, row1col2);
+}}}
+</td>
+<td>
+{{{
+fb.target._oneColumn($name);
+fb.target._twoColumns($fontPicker, $fontSize);
+fb.target._twoRowsOneRow($heading, $horizontalAlignment, $fontStyles);
+}}}
+</td>
+</tr>
 </table>
