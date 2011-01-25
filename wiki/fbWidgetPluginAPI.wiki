@@ -9,14 +9,14 @@ The fb.fbWidget Plugin API consists of 2 set of API function:
 == API must be implemented by plugin extends from it ==
 The following function must be implemented by field plugin:
 {{{
-	_getWidget : function(event, fb) {
-	},
-	_getFieldSettingsLanguageSection : function(event, fb) {
-	},
-	_getFieldSettingsGeneralSection : function(event, fb) {
-	}, 
-	_languageChange : function(event, fb) {
-	}
+_getWidget : function(event, fb) {
+},
+_getFieldSettingsLanguageSection : function(event, fb) {
+},
+_getFieldSettingsGeneralSection : function(event, fb) {
+}, 
+_languageChange : function(event, fb) {
+}
 }}}
 
 All functions above accept 2 parameters. The first one is jQuery event object and the second is object specific to the field plugin. The `fb` object has the following properties:
