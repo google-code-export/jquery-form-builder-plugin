@@ -25,7 +25,7 @@ All functions above accept 2 parameters. The first one is jQuery event object an
   * *fb.item.selected:* the value is true, if the field is selected in Builder Panel. This property use by `_languageChange` function only.
   * *fb.settings:* The settings of field instance rendered in Builder Panel.
 
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/override-functions.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/override-functions.png" width="100%" height="100%" />
 
 The diagram above showing the implementation of Plain Text field for all functions above except `_languageChange` function which trigger by changing language in Form Settings tab.  
 
@@ -49,7 +49,7 @@ Also, all API function return JQuery object.
 <tr valign="top">
 <td>1.</td>
 <td>*Label*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/label.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/label.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -70,7 +70,7 @@ fb.target._label({
 <tr valign="top">
 <td>2.</td>
 <td>*In-line Help*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/help.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/help.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -90,7 +90,7 @@ fb.target._help({
 <tr valign="top">
 <td>3.</td>
 <td>*Horizontal Alignment*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/horizontal-alignment.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/horizontal-alignment.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -110,7 +110,7 @@ fb.target._horizontalAlignment({
 <tr valign="top">
 <td>4.</td>
 <td>*Vertical Alignment*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/vertical-alignment.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/vertical-alignment.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -130,7 +130,7 @@ fb.target._verticalAlignment({
 <tr valign="top">
 <td>5.</td>
 <td>*Font Picker*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-picker.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-picker.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -152,7 +152,7 @@ fb.target._fontPicker({
 <tr valign="top">
 <td>6.</td>
 <td>*Font Size*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-size.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-size.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -172,7 +172,7 @@ fb.target._fontSize({
 <tr valign="top">
 <td>7.</td>
 <td>*Font Styles*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-styles.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-styles.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -191,7 +191,7 @@ fb.target._fontStyles({
 <tr valign="top">
 <td>8.</td>
 <td>*Font Panel*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-panel.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/font-panel.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -212,7 +212,7 @@ fb.target._fontPanel({
 <tr valign="top">
 <td>9.</td>
 <td>*Color Picker*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -229,7 +229,7 @@ fb.target._colorPicker({
 });
 }}}
 
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker-basic.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker-basic.png" width="100%" height="100%" />
 
   * If the type property is unspecified, it is default to "basic".
   * The color picker was customized for Form Builder based on the works of [http://andreaslagerkvist.com/jquery/colour-picker/ Andreas Lagerkvist].
@@ -244,13 +244,13 @@ fb.target._colorPicker({
 });
 }}}
 
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker-websafe.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-picker-websafe.png" width="100%" height="100%" />
 </td>
 </tr>
 <tr valign="top">
 <td>10.</td>
 <td>*Color Panel*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-panel.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/color-panel.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
@@ -270,19 +270,23 @@ fb.target._colorPanel({
 <tr valign="top">
 <td>11.</td>
 <td>*Layout*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/layout.png
+<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/layout.png" width="100%" height="100%" />
 </td>
 <td>
 {{{
 _oneColumn($e);
+
 _twoColumns($e1, $e2);
+
 _twoRowsOneRow(row1col1, row2col1, row1col2);
 }}}
 </td>
 <td>
 {{{
 fb.target._oneColumn($name);
+
 fb.target._twoColumns($fontPicker, $fontSize);
+
 fb.target._twoRowsOneRow($heading, $horizontalAlignment, $fontStyles);
 }}}
 </td>
