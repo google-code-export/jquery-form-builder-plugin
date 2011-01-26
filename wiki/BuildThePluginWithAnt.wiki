@@ -2,7 +2,8 @@
 #labels Phase-Implementation,Featured
 
 = Overview =
-[http://ant.apache.org/ Apache Ant] is assumed to be installed and properly configured. 
+[http://ant.apache.org/ Apache Ant] is assumed pre-installed and properly configured in your machine.
+ 
 All files built created in the dist directory by default.  
 
 = Different ways to build the project =
@@ -30,7 +31,7 @@ To remove all the built files using the following command:
 ant clean
 }}}
 
-To retain log statement which will display on Firebug console using the following command:
+To retain log statements of built Javascript files which will display on Firebug's console using the following command:
 {{{
 ant -Ddev=true all
 }}}
@@ -42,8 +43,7 @@ ant release
 }}}
 
 = Choosing fields =
-Thanks to Form Builder plugin modular design, it's possible to remove features you don't need/want from the library without re-factoring the code. If you want more control over what fields are included, 
-you can do so by adding some extra parameters to your build commands above.
+Thanks to Form Builder plugin modular design, it's possible to remove features you don't need/want from the library without re-factoring the code. If you want more control over what fields are included, you can do so by adding some extra parameters to your build commands above.
 
 To define which fields are included in your build, simply define the PLUGINS parameter with value of `options._type` of the field, like so:
 {{{
