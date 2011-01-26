@@ -1,5 +1,5 @@
 #summary How to build the JQuery Form Builder plugin project with Apache Ant.
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation,Featured,Phase-Deploy
 
 = Overview =
 [http://ant.apache.org/ Apache Ant] is assumed pre-installed and properly configured in your machine.
