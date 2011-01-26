@@ -25,9 +25,9 @@ http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/design/builder-
 ||E-mail Address||Time||
 ||Web Address||Phone (International & US)||
 ||Multi Line Text (Text Area)||Mailing Address||
-||Multiple Choice (Radio)||Currency||
-||Checkboxes||Plain Text||
-||File Upload||Rich Text (Html Text)||
+||Multiple Choice (Radios & Checkboxes)||Currency||
+||File Upload||Plain Text||
+||||Rich Text (Html Text)||
 
 *2. Field Settings:* This tab display settings of the field selected (To see the field settings of specific field, user need to select the field displayed in the Builder Panel). The field settings tab of image above is field settings of Plain Text. 
 
