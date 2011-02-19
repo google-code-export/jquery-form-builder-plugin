@@ -293,7 +293,7 @@ fb.target._twoRowsOneRow($heading, $horizontalAlignment, $fontStyles);
 <tr valign="top">
 <td>12.</td>
 <td>*Label, Value and Description Color Panel*<br />
-http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/_labelValueDescriptionColorPanel.png
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/label-value-description-color-panel.png
 </td>
 <td>
 {{{
