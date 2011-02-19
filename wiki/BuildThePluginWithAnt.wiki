@@ -37,10 +37,16 @@ ant -Ddev=true all
 }}}
 *Note:* The -D prepended to the `dev` parameter is a flag to tell the compiler you're defining a parameter. Don't omit it!
 
-Finally, you can release all the built files as a zip file using the command below:
+You can release all the built files as a zip file using the command below:
 {{{
 ant release
 }}}
+
+Finally, you can upload the release file to google code by using the following command:
+{{{
+ant -Dusername=<username> -Dpassword=<password> upload
+}}}
+*Note:* `<password>` is your hosting password at https://code.google.com/hosting/settings.
 
 = Choosing fields =
 Thanks to Form Builder plugin modular design, it's possible to remove features you don't need/want from the library without re-factoring the code. If you want more control over what fields are included, you can do so by adding some extra parameters to your build commands above.

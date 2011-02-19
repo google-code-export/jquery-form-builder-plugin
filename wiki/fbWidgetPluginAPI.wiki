@@ -290,4 +290,51 @@ fb.target._twoRowsOneRow($heading, $horizontalAlignment, $fontStyles);
 }}}
 </td>
 </tr>
+<tr valign="top">
+<td>12.</td>
+<td>*Label, Value and Description Color Panel*<br />
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/_labelValueDescriptionColorPanel.png
+</td>
+<td>
+{{{
+_labelValueDescriptionColorPanel(options)
+}}}
+</td>
+<td>
+{{{
+var options = {
+	label: {
+	  color : '000000',
+	  backgroundColor : 'ffffff'
+	},
+	value: {
+	  color : '000000',
+	  backgroundColor : 'ffffff'
+	},
+	description: {
+		color : '777777',
+		backgroundColor : 'ffffff'
+	}				
+};
+
+fb.target._labelValueDescriptionColorPanel(options);
+}}}
+</td>
+</tr>
+<tr valign="top">
+<td>13.</td>
+<td>*Three Columns*<br />
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/three-columns.png
+</td>
+<td>
+{{{
+_threeColumns($e1, $e2, $e3)
+}}}
+</td>
+<td>
+{{{
+fb.target._threeColumns($('<div></div>'), $('<div>Text</div>'), $('<div>Background</div>'));
+}}}
+</td>
+</tr>
 </table>
