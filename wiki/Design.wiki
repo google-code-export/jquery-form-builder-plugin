@@ -47,7 +47,7 @@ This panel preview the actual outlook of the form and fields added. User can sor
 
 http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/design/structural.png
 
-The design of the Form Builder is very simple, each box in the diagram above is a plugin itself. All plugins developed for the Form Builder using "fb" as it's namespace (fb stands for form builder, not facebook). 
+The design of the Form Builder is very simple, each box in the diagram above is a plugin itself. All plugins developed for the Form Builder using "fb" as it's namespace (fb stands for form builder, not facebook). Field plugins such as `fbPlainText`, `fbSingleLineText`, etc. must extend/inherit from `fbWidget`.
 
 ==Plugin Inheritance==
 Many thanks to JQuery UI developers created ui.widget which support a critical feature: plugin inheritance. This project is built on top of ui.widget. Hardly imagined the design of the form builder plugin to achieve such level of modularity, extensibility and reusabiliy without ui.widget.
