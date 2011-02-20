@@ -25,7 +25,8 @@ All functions above accept 2 parameters. The first one is jQuery event object an
   * *fb.item.selected:* the value is true, if the field is selected in Builder Panel. This property use by `_languageChange` function only.
   * *fb.settings:* The settings of field instance rendered in Builder Panel.
 
-<img src="http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/override-functions.png" width="100%" height="100%" />
+http://jquery-form-builder-plugin.googlecode.com/svn/wiki/images/api/override-functions.png
+
 The diagram above showing the implementation of Plain Text field for all functions above except `_languageChange` function which trigger by changing language in Form Settings tab.  
 
 == API for re-usable field setting components ==
