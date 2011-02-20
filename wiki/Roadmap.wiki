@@ -5,40 +5,32 @@ The project is targeting 2 weeks release cycle.
 A sister project, server-side implementation of this project, 
 the [http://code.google.com/p/grails-form-builder-plugin/ Grails Form Builder plugin] will practice coordinated release with this project.
 
-*0.1 09-Feb-2011*
-  * Plain Text
-  * Single Line Text (Text Box)
-  
-*0.2 23-Feb-2011*
-  * Plain Text
-  * Single Line Text
-
-*0.3 09-Mar-2011*
+*0.2 09-Mar-2011*
   * Number (Digit & Decimal)
   * E-mail Address
 
-*0.4 23-Mar-2011*
+*0.3 23-Mar-2011*
   * Multi Line Text (Text Area)
   * Web Address
 
-*0.5 06-Apr-2011*
+*0.4 06-Apr-2011*
   * Multiple Choice (Radio & Checkboxes)
   * Web Address
 
-*0.6 20-Apr-2011*
+*0.5 20-Apr-2011*
   * Name (First Name & Last Name)
   * Date (Date Picker)
 
-*0.7 04-May-2011*
+*0.6 04-May-2011*
   * Time (Time Picker)
   * Phone (International & US)
 
-*0.8 18-May-2011*
+*0.7 18-May-2011*
   * Mailing Address
   * Currency
   
-*0.9 01-Jun-2011*
+*0.8 01-Jun-2011*
   * File Upload (Single & Multiple)
 
-*1.0 15-Jun-2011*
+*0.9 15-Jun-2011*
   * Rich Text (Html Text)
