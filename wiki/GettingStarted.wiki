@@ -1,0 +1,7 @@
+#summary How to run it in your local machine.
+#labels Featured
+
+As it is JQuery/JavaScript project, running it is simple and no compilation required. With your preferred web browser and [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN Client], you are ready to go! Please follow steps below:
+  # Check out the source code with your svn client by follow instructions at http://code.google.com/p/jquery-form-builder-plugin/source/checkout
+  # Open `src/formbuilder.html` using your web browser, you should see whatever you saw in the [http://jquery-form-builder-plugin.appspot.com/ demo site] or more (features under development).
+  # You can start [HowToCreateNewField creating new field].
